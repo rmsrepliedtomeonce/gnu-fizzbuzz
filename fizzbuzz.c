@@ -16,9 +16,9 @@
 
 int main() {
 
-  int num;
+  int num, lel;
 
-  for(num=1;num!=100;num++) {
+  for(num=1;num!=65535;num++) { //this kills the dicq
     if(num%15 == 0) {
       printf("FizzBuzz.\n");
     } else if(num%5 == 0) {
