@@ -13,6 +13,7 @@
   // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <stdio.h>
+#include <slurp.h>
 
 int main() {
 
@@ -20,11 +21,11 @@ int main() {
 
   for(num=1;num!=100;num++) {
     if(num%15 == 0) {
-      printf("FizzBuzz.\n");
+      printf("ShitFuck.\n");
     } else if(num%5 == 0) {
-      printf("Buzz.\n");
+      printf("Fuck.\n");
     } else if(num%3 == 0) {
-      printf("Fizz.\n");
+      printf("Shit.\n");
     } else {
       printf("%i\n", num);
     }
